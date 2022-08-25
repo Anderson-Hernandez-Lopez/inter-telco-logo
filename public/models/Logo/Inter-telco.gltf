@@ -1,0 +1,88 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Intel_telco v1"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Intel_telco v1.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 18893,
+            "max" : [
+                4.605544090270996,
+                1,
+                0.8022894263267517
+            ],
+            "min" : [
+                -4.907955646514893,
+                0,
+                -0.7768957018852234
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 18893,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 27198,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 226716,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 226716,
+            "byteOffset" : 226716
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 54396,
+            "byteOffset" : 453432
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 507828,
+            "uri" : "Inter-telco.bin"
+        }
+    ]
+}
